@@ -1,7 +1,7 @@
 function InputBox({
   setInputValue,
   inputValue,
-  setIsEdited,
+  
   isupdated,
   handleAddItems,
   handleUpdation,
@@ -23,7 +23,7 @@ function InputBox({
       {isupdated ? (
         <button
           onClick={() => {
-            setIsEdited(true);
+            \
             handleUpdation();
           }}
         >
